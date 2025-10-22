@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Black Page</title>
+
+    <!-- Google Fonts for a unique classic font style -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS (for black color and no layouts) -->
+    <style>
+        /* This CSS ensures the entire page and viewport are completely black */
+        html, body {
+            height: 100%;          /* Forces the body/html to take up the full screen height */
+            width: 100%;           /* Forces the body/html to take up the full screen width */
+            margin: 0;             /* Removes the browser's default white margin around the edge */
+            padding: 0;            /* Removes the browser's default padding */
+            background-color: #000000; /* Sets the background to pure black */
+            overflow: hidden;      /* Prevents scrollbars from appearing on a clean page */
+            position: relative;    /* Needed for absolute positioning of the text */
+            color: #ffffff;       /* Default text color for visibility */
+            font-family: 'Playfair Display', serif; /* Apply the classic font */
+        }
+
+        .coming-soon {
+            position: absolute;
+            top: 20px;            /* Adjust as needed for spacing from the top */
+            left: 20px;           /* Adjust as needed for spacing from the left */
+            font-size: 0.8em;       /* Made the text size smaller */
+            font-weight: 700;     /* Make it bold if desired for classic look */
+            letter-spacing: 1px;  /* Reduced letter spacing */
+            text-transform: uppercase; /* Optional: uppercase for a classic feel */
+        }
+    </style>
+</head>
+<body>
+    <div class="coming-soon">
+        Coming Soon...
+    </div>
+
+    <!-- JavaScript (for completeness, though not needed for a static black page) -->
+    <script>
+        // No JavaScript code is needed or included to keep the page "clean"
+    </script>
+</body>
+</html>
